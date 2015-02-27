@@ -10,30 +10,34 @@ Cheap and simple solution: use an usb mouse button to power off your linux box.
 Connect a mouse to your linux box. If /dev/input/mouse is exist then run this program and when left mosue button pressed program will issue "poweroff" linux command.
 
 
-Prerequsites:
+<h1> Prerequsites: </h1>
 
+<h2> 1. Install Python. </h2>
+<pre>
 apt-get install python
+</pre>
 
+<h2> 2. Download the python program. </h2>
+<pre>
 cd /usr/local/bin
-
 wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/mouse_pressed.py
-
 chmod 755 mouse_pressed.py
+</pre>
 
+<h2> 3. Download shell script allow to run when system statup. </h2>
+<pre>
 cd /etc/init.d
-
 wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/mouse_pressed.sh
-
 chmod 755 mouse_pressed.sh
-
 update-rc.d mouse_pressed.sh defaults
+</pre>
 
+<pre>
 /etc/init.d/mouse_pressed.sh status         # first time will report error - 'casue not running.
-
 /etc/init.d/mouse_pressed.sh start        # or reboot
+</pre>
 
 If LEFT mouse button pressed - shut down system
-
 
 If RIGHT mouse button pressed - Reboots system
 
