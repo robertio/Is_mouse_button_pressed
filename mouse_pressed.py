@@ -2,6 +2,7 @@
 #########################
 # shutdown linux system if left mouse button pressed. Reboot for right button.
 # https://github.com/robertio/Is_mouse_button_pressed/edit/master/README.md
+# put this file as /usr/local/bin/mouse_pressed.py
 ##########################
 import struct,os
 file = open( "/dev/input/mice", "rb" );
