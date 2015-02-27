@@ -7,7 +7,8 @@ Cheap and simple solution: use an usb mouse button to power off your linux box.
 
 Connect a mouse to your linux box. If /dev/input/mouse is exist then run this program and when left mosue button pressed program will issue "poweroff" linux command.
 
-(python mouse handling source: http://stackoverflow.com/questions/4855823/get-mouse-deltas-using-python-in-linux )
+(source of python mouse handling : http://stackoverflow.com/questions/4855823/get-mouse-deltas-using-python-in-linux )
+
 
 apt-get install python
 wget --no-check-certificate 
