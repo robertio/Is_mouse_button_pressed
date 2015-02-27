@@ -1,6 +1,8 @@
 # Is_mouse_button_pressed?
 Cheap and simple solution to power off your linux box when usb mouse button pressed. 
 
+http://mousebuttonshutdown.blogspot.hu/2015/02/cheap-and-simple-solution-to-power-off.html
+
 Python program to check if left mouse button pressed, if yes then power off. 
 This is for embeded linux systems, without onboard buttons or keyboard, but you wants to shutdown with proper way.
 Cheap and simple solution: use an usb mouse button to power off your linux box.
