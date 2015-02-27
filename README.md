@@ -14,13 +14,13 @@ apt-get install python
 
 cd /usr/local/bin
 
-wget --no-check-certificate https://github.com/robertio/Is_mouse_button_pressed/blob/master/mouse_pressed.py
+wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/mouse_pressed.py
 
 chmod 755 mouse_pressed.py
 
 cd /etc/init.d
 
-wget --no-check-certificate https://github.com/robertio/Is_mouse_button_pressed/blob/master/mouse_pressed.sh
+wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/mouse_pressed.sh
 
 chmod 755 mouse_pressed.sh
 
