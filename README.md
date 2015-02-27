@@ -11,9 +11,12 @@ Connect a mouse to your linux box. If /dev/input/mouse is exist then run this pr
 
 
 apt-get install python
+
 wget --no-check-certificate 
+
 update-rc.d mouse_pressed.sh defaults
 
 /etc/init.d/mouse_pressed.sh status
+
 /etc/init.d/mouse_pressed.sh start
 
