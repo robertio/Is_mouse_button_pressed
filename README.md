@@ -32,6 +32,7 @@ chmod 755 mouse_pressed.sh
 update-rc.d mouse_pressed.sh defaults
 </pre>
 
+<h2> 4. Start first time manually </h2>
 <pre>
 /etc/init.d/mouse_pressed.sh status         # first time will report error - 'casue not running.
 /etc/init.d/mouse_pressed.sh start        # or reboot
