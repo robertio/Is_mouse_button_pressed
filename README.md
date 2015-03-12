@@ -21,7 +21,8 @@ apt-get install python
 <pre>
 cd /usr/local/bin
 wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/mouse_pressed.py
-chmod 755 mouse_pressed.py
+wget --no-check-certificate https://raw.githubusercontent.com/robertio/Is_mouse_button_pressed/master/midmousebutt.sh
+chmod 755 mouse_pressed.py midmousebutt.sh 
 </pre>
 
 <h2> 3. Download shell script allow to run when system statup. </h2>
