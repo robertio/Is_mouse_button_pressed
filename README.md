@@ -1,5 +1,5 @@
 # Is_mouse_button_pressed?
-Cheap and simple solution to power off your linux box when usb mouse button pressed. 
+<h1> Cheap and simple solution to power off your linux box when usb left mouse button pressed. </h1>
 
 http://mousebuttonshutdown.blogspot.hu/2015/02/cheap-and-simple-solution-to-power-off.html
 
