@@ -42,4 +42,6 @@ If LEFT mouse button pressed - shut down system
 
 If RIGHT mouse button pressed - Reboots system
 
+If MIDDLE mouse button pressed - plays music
+
 * source of python mouse handling : http://stackoverflow.com/questions/4855823/get-mouse-deltas-using-python-in-linux 
