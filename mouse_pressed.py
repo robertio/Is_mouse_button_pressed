@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #########################
-# shutdown linux system if left mouse button pressed. Reboot for right button.
+# shutdown linux system if left mouse button pressed. Reboot for right button. run midmousebutt.sh for middle button.
 # https://github.com/robertio/Is_mouse_button_pressed/edit/master/README.md
 # put this file as /usr/local/bin/mouse_pressed.py
 ##########################
@@ -17,6 +17,8 @@ def getMouseEvent():
    os.system("shutdown -h now")
   elif int(bRight) != 0:
    os.system("shutdown -r now")
+  elif int(bMiddle) != 0:
+   os.system("midmousebutt.sh")
 while( 1 ):
   getMouseEvent();
 file.close();
